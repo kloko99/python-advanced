@@ -1,0 +1,5 @@
+"""
+Beispiel Bezahlsystem
+"""
+
+from abc import ABC, abstractmethod

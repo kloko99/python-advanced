@@ -1,0 +1,40 @@
+[
+  
+    {
+        "id": 1,
+        "name": "Gandalf",
+        "power": 232,
+        "age": 1200,
+        "intelligence": 333,
+        "magic": 233,
+        "history": [23, 11, 44],
+        "type": "wizard",
+        "superPower": false
+    },
+    {
+        "id":2,
+        "name": "Radagast",
+        "power": 132,
+        "age": 930,
+        "origin": "Blue Mountains",
+        "intelligence": 333,
+        "magic": 123,
+        "history": ["3"],
+        "type": "wizard",
+        "superPower": true 
+    },
+    {
+        "id":3,
+        "name": "Saruman",
+        "power": 232,
+        "age": 1230,
+        "origin": "Mordor",
+        "intelligence": 313,
+        "magic": 3123,
+        "history": [34, 232],
+        "type": "witcher",
+        "superPower": true 
+    }
+  
+  ]
+  

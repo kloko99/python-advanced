@@ -1,0 +1,11 @@
+Name,Alter,Stadt,Geschlecht,Email,Gewicht,BMI
+Alice,28,New York,Weiblich,alice@example.com,63,22.6
+Bob,35,San Francisco,Männlich,bob@example.com,80,27.5
+Charlie,22,Los Angeles,Männlich,charlie@example.com,70,25.5
+David,31,Chicago,Männlich,david@example.com,92,29.8
+Eva,29,Miami,Weiblich,eva@example.com,57,20.8
+Frank,44,Boston,Männlich,frank@example.com,75,26.3
+Grace,27,Dallas,Weiblich,grace@example.com,68,24.9
+Hank,38,Denver,Männlich,hank@example.com,85,27.6
+Irene,33,Houston,,irene@example.com,60,21.7
+John,50,Atlanta,Männlich,john@example.com,98,

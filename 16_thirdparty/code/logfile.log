@@ -1,0 +1,14 @@
+
+2025-05-01T15:31:49.700546+0200 INFO Diese Nachricht geht in die Datei
+2025-05-01T15:31:49.703364+0200 INFO Wird geloggt, da Filter passt
+2025-05-01T15:31:49.703490+0200 ERROR An error has been caught in function '<module>', process 'MainProcess' (319262), thread 'MainThread' (134509671197568):
+Traceback (most recent call last):
+
+> File "/home/solaris/stuff/dozentenstellen/tutorials/python_intensiv_student_code/16_thirdparty/code/3_loguru.py", line 52, in <module>
+    div_by_zero()  # auskommentiert für Sicherheit
+    └ <function div_by_zero at 0x7a55f7531120>
+
+  File "/home/solaris/stuff/dozentenstellen/tutorials/python_intensiv_student_code/16_thirdparty/code/3_loguru.py", line 49, in div_by_zero
+    1 / 0
+
+ZeroDivisionError: division by zero

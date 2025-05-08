@@ -1,0 +1,23 @@
+[
+    {
+        "stadt": "Berlin",
+        "land": "Deutschland",
+        "einwohner": 3769000
+    },
+    {
+        "stadt": "Paris",
+        "land": "Frankreich",
+        "einwohner": 2148000
+    },
+    {
+        "stadt": "München",
+        "land": "Deutschland",
+        "einwohner": 1472000
+    },
+    {
+        "stadt": "Madrid",
+        "land": "Spanien",
+        "einwohner": 3223000
+    }
+]
+

@@ -1,0 +1,26 @@
+# Bytecode‑Dateien
+__pycache__/
+*.py[cod]
+*$py.class
+
+# mypy‑Type‑Checker‑Cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# virtuelle Umgebungen
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# Editor‑/IDE‑Spezifisches (kurz)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Betriebssystem‑Metadateien
+.DS_Store
+Thumbs.db
