@@ -116,8 +116,8 @@ def process_image_multiprocessing(
     # 2) mit pool.map die Funktion convert_to_grayscale für die
     # blocks aufrufen
     # erzeugt eine Liste von Tupeln mit Größe, Graustufenbild
-    # with Pool(?Anzahl Prozesse) as pool:
-    # results = pool.map(? )
+    # with Pool() as pool:
+    #     results = pool.map(? )
 
     # 3) Leeres, neues Graustufenbild in der Originalgröße erstellen
     # width, height = image.size
@@ -129,7 +129,7 @@ def process_image_multiprocessing(
 
     # output_path = Path(output_path)
     # new_image.save(output_path)
-    return output_path'
+    return output_path
 
 
 # Aufruf der Verarbeitung (kann so bleiben)
@@ -138,4 +138,3 @@ output_path = process_image_multiprocessing(
 )
 
 print(f"Graustufenbild gespeichert unter: {output_path}")
-

@@ -1,6 +1,8 @@
 """
 # Pytest Tutorials:
 
+pip install pytest
+
 ## Pytest Primer
 https://realpython.com/pytest-python-testing/
 
@@ -24,3 +26,9 @@ def capital_case(x):
 
 def capital_case_old(x):
     return x.capitalize()
+
+
+# assert 1 == 2, "1 und 1 muss wahr sein"
+def test_capital_case():
+    assert capital_case("hamburg") == "Hamburg"
+    assert capital_case("a b") == "A b"

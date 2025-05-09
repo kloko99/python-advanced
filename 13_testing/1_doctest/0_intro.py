@@ -7,3 +7,16 @@ verwendet wird, und können automatisch getestet werden.
 """
 
 import doctest
+
+
+def summe(a: float, b: float) -> float:
+    """
+    summe von zwei Floats.
+
+    >>> summe(1, 4)
+    5
+
+    >>> summe(0, 0)
+    0
+    """
+    return a + b
